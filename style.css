@@ -1,8 +1,15 @@
+
+html, body {
+    height: 100%;
+}
+
 header {
     background:#eee;
     padding:1em;
     margin-top: 5px;
     margin-bottom: 5px;
+    height:85px;
+    box-sizing: border-box;
 }
 
 nav {
@@ -10,6 +17,8 @@ nav {
     padding:1em;
     margin-top: 5px;
     margin-bottom: 5px;
+    height:85px;
+    box-sizing: border-box;
 }
 
 section {
@@ -17,6 +26,16 @@ section {
     padding:1em;
     margin-top: 5px;
     margin-bottom: 5px;
+    height:260px;
+    box-sizing: border-box;
+}
+
+article {
+    width:66%;
+    color:#ebebeb;
+    overflow: auto;
+    padding-bottom: 85px;
+    float: left;
 }
 
 aside {
@@ -24,20 +43,31 @@ aside {
     padding:1em;
     margin-top: 5px;
     margin-bottom: 5px;
+    height: 260px;
+    width:34%;
+    box-sizing: border-box;
+    float: right;    
+}
+
+.fix {
+    clear: both;
 }
 
 Footer {
     background:#eee;
     padding:1em;
-    margin-top: 5px;
+    margin-top:  5px;
     margin-bottom: 5px;
+    height:85px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 body {
-    margin-left: 264px;
-    margin-right: 264px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     columns: #777777;
-    background:#777';
-    
-
+    background:#777;
 }
+
